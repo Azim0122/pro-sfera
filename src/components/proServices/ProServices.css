@@ -1,0 +1,779 @@
+@font-face {
+    font-family: GT Walsheim Pro;
+    src: local("GT Walsheim Pro Bold"),local("GTWalsheimProBold"),url(GTWalsheimProBold.woff2) format("woff2"),url(GTWalsheimProBold.woff) format("woff"),url(GTWalsheimProBold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal
+  }
+.container2 .boxs{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+   flex-wrap: wrap;
+   margin-bottom: 20px;
+}
+.container2 .boxs .box{
+    width: 23%;
+    height: 170px;
+    border-radius: 20px;
+    padding: 1rem;
+    background: rgba(254, 254, 254, 1);
+    position: relative;
+    overflow: hidden;
+    transition: all .5s ease;
+}
+.container2 .boxs .box .box-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .5rem;
+    position: relative;
+    transition: all .5s ease;
+
+}
+.container2 .boxs .box .box-top span{
+    font-weight: 300;
+    font-size: 18px;
+    color:  rgba(5, 5, 5, 1);
+    opacity: .9;
+    font-family: GT Walsheim Pro;
+    transition: all .5s ease;
+}
+.container2 .boxs .box .box-top i{
+    font-size: 25px;
+    padding: .5rem;
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    transform: rotate(45deg) ;
+    position: absolute;
+    right: 0;
+    color: rgba(255, 134, 134, 1);
+    cursor: pointer;
+}   
+.container2 .boxs .box .box-bottom{
+    color: rgba(255, 134, 134, 1);
+    position: absolute;
+    top: 73%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    transition: all .5s ease;
+
+}
+.container2 .boxs .box .box-bottom p{
+    font-weight: 700;
+    font-size: 32px;
+    color: rgba(255, 134, 134, 1);
+    font-family: GT Walsheim Pro;
+    text-align: left;
+    transition: .5s ease-in-out;
+
+}
+
+/* 2 */
+.container2 .boxs .box:nth-child(2){
+    width: 23%;
+    height: 170px;
+    border-radius: 20px;
+    padding: 1rem;
+    background: rgba(254, 254, 254, 1);
+    position: relative;
+    overflow: hidden;
+    transition: all .5s ease;
+}
+.container2 .boxs .box:nth-child(2) .box-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .5rem;
+    position: relative;
+    transition: all .5s ease;
+
+}
+.container2 .boxs .box:nth-child(2) .box-top span{
+    font-weight: 300;
+    font-size: 18px;
+    color:  rgba(5, 5, 5, 1);
+    opacity: .9;
+    font-family: GT Walsheim Pro;
+    transition: all .5s ease;
+}
+.container2 .boxs .box:nth-child(2) .box-top i{
+    font-size: 25px;
+    padding: .5rem;
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    transform: rotate(45deg) ;
+    position: absolute;
+    right: 0;
+    color: rgba(255, 0, 0, 1);
+    cursor: pointer;
+}   
+.container2 .boxs .box:nth-child(2) .box-bottom{
+    color: rgba(255, 0, 0, 1);
+    position: absolute;
+    top: 73%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s ease;
+
+}
+.container2 .boxs .box:nth-child(2) .box-bottom p{
+    font-weight: 700;
+    font-size: 32px;
+    color: rgba(255, 0, 0, 1);
+    font-family: GT Walsheim Pro;
+    text-align: left;
+    transition: .5s ease-in-out;
+
+}
+
+/* 3 */
+.container2 .boxs .box:nth-child(3){
+    width: 23%;
+    height: 170px;
+    border-radius: 20px;
+    padding: 1rem;
+    background: rgba(254, 254, 254, 1);
+    position: relative;
+    overflow: hidden;
+    transition: all .5s ease;
+}
+.container2 .boxs .box:nth-child(3) .box-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .5rem;
+    position: relative;
+    transition: all .5s ease;
+
+}
+.container2 .boxs .box:nth-child(3) .box-top span{
+    font-weight: 300;
+    font-size: 18px;
+    color:  rgba(5, 5, 5, 1);
+    opacity: .9;
+    font-family: GT Walsheim Pro;
+    transition: all .5s ease;
+}
+.container2 .boxs .box:nth-child(3) .box-top i{
+    font-size: 25px;
+    padding: .5rem;
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    transform: rotate(45deg) ;
+    position: absolute;
+    right: 0;
+    color: rgba(255, 0, 0, 1);
+    cursor: pointer;
+}   
+.container2 .boxs .box:nth-child(3) .box-bottom{
+    color: rgba(255, 0, 0, 1);
+    position: absolute;
+    top: 73%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s ease;
+
+}
+.container2 .boxs .box:nth-child(3) .box-bottom p{
+    font-weight: 700;
+    font-size: 32px;
+    color: rgba(255, 0, 0, 1);
+    font-family: GT Walsheim Pro;
+    text-align: left;
+    transition: .5s ease-in-out;
+
+}
+
+/* 4 */
+.container2 .boxs .box:nth-child(4){
+    width: 23%;
+    height: 170px;
+    border-radius: 20px;
+    padding: 1rem;
+    background: rgba(254, 254, 254, 1);
+    position: relative;
+    overflow: hidden;
+    transition: all .5s ease;
+}
+.container2 .boxs .box:nth-child(4) .box-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .5rem;
+    position: relative;
+    transition: all .5s ease;
+
+}
+.container2 .boxs .box:nth-child(4) .box-top span{
+    font-weight: 300;
+    font-size: 18px;
+    color:  rgba(5, 5, 5, 1);
+    opacity: .9;
+    font-family: GT Walsheim Pro;
+    transition: all .5s ease;
+}
+.container2 .boxs .box:nth-child(4) .box-top i{
+    font-size: 25px;
+    padding: .5rem;
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    transform: rotate(45deg) ;
+    position: absolute;
+    right: 0;
+    color: rgba(0, 158, 253, 1);
+    cursor: pointer;
+}   
+.container2 .boxs .box:nth-child(4) .box-bottom{
+    color: rgba(0, 158, 253, 1);
+    position: absolute;
+    top: 73%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s ease;
+
+}
+.container2 .boxs .box:nth-child(4) .box-bottom p{
+    font-weight: 700;
+    font-size: 32px;
+    color: rgba(0, 158, 253, 1);
+    font-family: GT Walsheim Pro;
+    text-align: left;
+    transition: .5s ease-in-out;
+
+}
+
+/* 5 */
+.container2 .boxs .box:nth-child(5){
+    width: 23%;
+    height: 170px;
+    border-radius: 20px;
+    padding: 1rem;
+    background: rgba(254, 254, 254, 1);
+    position: relative;
+    overflow: hidden;
+    transition: all .5s ease;
+}
+.container2 .boxs .box:nth-child(5) .box-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .5rem;
+    position: relative;
+    transition: all .5s ease;
+
+}
+.container2 .boxs .box:nth-child(5) .box-top span{
+    font-weight: 300;
+    font-size: 18px;
+    color:  rgba(5, 5, 5, 1);
+    opacity: .9;
+    font-family: GT Walsheim Pro;
+    transition: all .5s ease;
+}
+.container2 .boxs .box:nth-child(5) .box-top i{
+    font-size: 25px;
+    padding: .5rem;
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    transform: rotate(45deg) ;
+    position: absolute;
+    right: 0;
+    color: rgba(0, 158, 253, 1);
+    cursor: pointer;
+}   
+.container2 .boxs .box:nth-child(5) .box-bottom{
+    color: rgba(0, 158, 253, 1);
+    position: absolute;
+    top: 73%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s ease;
+
+}
+.container2 .boxs .box:nth-child(5) .box-bottom p{
+    font-weight: 700;
+    font-size: 32px;
+    color: rgba(0, 158, 253, 1);
+    font-family: GT Walsheim Pro;
+    text-align: left;
+    transition: .5s ease-in-out;
+
+}
+/* 6 */
+.container2 .boxs .box:nth-child(6){
+    width: 23%;
+    height: 170px;
+    border-radius: 20px;
+    padding: 1rem;
+    background: rgba(254, 254, 254, 1);
+    position: relative;
+    overflow: hidden;
+    transition: all .5s ease;
+}
+.container2 .boxs .box:nth-child(6) .box-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .5rem;
+    position: relative;
+    transition: all .5s ease;
+
+}
+.container2 .boxs .box:nth-child(6) .box-top span{
+    font-weight: 300;
+    font-size: 18px;
+    color:  rgba(5, 5, 5, 1);
+    opacity: .9;
+    font-family: GT Walsheim Pro;
+    transition: all .5s ease;
+}
+.container2 .boxs .box:nth-child(6) .box-top i{
+    font-size: 25px;
+    padding: .5rem;
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    transform: rotate(45deg) ;
+    position: absolute;
+    right: 0;
+    color: rgba(103, 115, 229, 1);
+    cursor: pointer;
+}   
+.container2 .boxs .box:nth-child(6) .box-bottom{
+    color: rgba(103, 115, 229, 1);
+    position: absolute;
+    top: 73%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s ease;
+
+}
+.container2 .boxs .box:nth-child(6) .box-bottom p{
+    font-weight: 700;
+    font-size: 32px;
+    color: rgba(103, 115, 229, 1);
+    font-family: GT Walsheim Pro;
+    text-align: left;
+    transition: .5s ease-in-out;
+
+}
+/* 7 */
+.container2 .boxs .box:nth-child(7){
+    width: 23%;
+    height: 170px;
+    border-radius: 20px;
+    padding: 1rem;
+    background: rgba(254, 254, 254, 1);
+    position: relative;
+    overflow: hidden;
+    transition: all .5s ease;
+}
+.container2 .boxs .box:nth-child(7) .box-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .5rem;
+    position: relative;
+    transition: all .5s ease;
+
+}
+.container2 .boxs .box:nth-child(7) .box-top span{
+    font-weight: 300;
+    font-size: 18px;
+    color:  rgba(5, 5, 5, 1);
+    opacity: .9;
+    font-family: GT Walsheim Pro;
+    transition: all .5s ease;
+}
+.container2 .boxs .box:nth-child(7) .box-top i{
+    font-size: 25px;
+    padding: .5rem;
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    transform: rotate(45deg) ;
+    position: absolute;
+    right: 0;
+    color: rgba(155, 55, 149, 1);
+    cursor: pointer;
+}   
+.container2 .boxs .box:nth-child(7) .box-bottom{
+    color: rgba(155, 55, 149, 1);
+    position: absolute;
+    top: 73%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s ease;
+
+}
+.container2 .boxs .box:nth-child(7) .box-bottom p{
+    font-weight: 700;
+    font-size: 32px;
+    color: rgba(155, 55, 149, 1);
+    font-family: GT Walsheim Pro;
+    text-align: left;
+    transition: .5s ease-in-out;
+
+}
+/* 8 */
+.container2 .boxs .box:nth-child(8){
+    width: 23%;
+    height: 170px;
+    border-radius: 20px;
+    padding: 1rem;
+    background: rgba(254, 254, 254, 1);
+    position: relative;
+    overflow: hidden;
+    transition: all .5s ease;
+}
+.container2 .boxs .box:nth-child(8) .box-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .5rem;
+    position: relative;
+    transition: all .5s ease;
+}
+.container2 .boxs .box:nth-child(8) .box-top span{
+    font-weight: 300;
+    font-size: 18px;
+    color:  rgba(5, 5, 5, 1);
+    opacity: .9;
+    font-family: GT Walsheim Pro;
+    transition: all .5s ease;
+}
+.container2 .boxs .box:nth-child(8) .box-top i{
+    font-size: 25px;
+    padding: .5rem;
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    transform: rotate(45deg) ;
+    position: absolute;
+    right: 0;
+    color: rgba(95, 224, 216, 1);
+    cursor: pointer;
+}   
+.container2 .boxs .box:nth-child(8) .box-bottom{
+    color: rgba(95, 224, 216, 1);
+    position: absolute;
+    top: 73%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s ease;
+}
+.container2 .boxs .box:nth-child(8) .box-bottom p{
+    font-weight: 700;
+    font-size: 32px;
+    color: rgba(95, 224, 216, 1);
+    font-family: GT Walsheim Pro;
+    text-align: left;
+    transition: .5s ease-in-out;
+
+}
+/* 9 */
+.container2 .boxs .box:nth-child(9){
+    width: 23%;
+    height: 170px;
+    border-radius: 20px;
+    padding: 1rem;
+    background: rgba(254, 254, 254, 1);
+    position: relative;
+    overflow: hidden;
+    transition: all .5s ease;
+}
+.container2 .boxs .box:nth-child(9) .box-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .5rem;
+    position: relative;
+    transition: all .5s ease;
+
+}
+.container2 .boxs .box:nth-child(9) .box-top span{
+    font-weight: 300;
+    font-size: 18px;
+    color:  rgba(5, 5, 5, 1);
+    opacity: .9;
+    font-family: GT Walsheim Pro;
+    transition: all .5s ease;
+}
+.container2 .boxs .box:nth-child(9) .box-top i{
+    font-size: 25px;
+    padding: .5rem;
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    transform: rotate(45deg) ;
+    position: absolute;
+    right: 0;
+    color: rgba(0, 0, 0, 1);
+    cursor: pointer;
+}   
+.container2 .boxs .box:nth-child(9) .box-bottom{
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 73%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s ease;
+
+}
+.container2 .boxs .box:nth-child(9) .box-bottom p{
+    font-weight: 700;
+    font-size: 32px;
+    color: rgba(0, 0, 0, 1);
+    font-family: GT Walsheim Pro;
+    text-align: left;
+    transition: .5s ease-in-out;
+
+}
+/* 10 */
+.container2 .boxs .box:nth-child(10){
+    width: 23%;
+    height: 170px;
+    border-radius: 20px;
+    padding: 1rem;
+    background: rgba(254, 254, 254, 1);
+    position: relative;
+    overflow: hidden;
+    transition: all .5s ease;
+}
+.container2 .boxs .box:nth-child(10) .box-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .5rem;
+    position: relative;
+    transition: all .5s ease;
+
+}
+.container2 .boxs .box:nth-child(10) .box-top span{
+    font-weight: 300;
+    font-size: 18px;
+    color:  rgba(5, 5, 5, 1);
+    opacity: .9;
+    font-family: GT Walsheim Pro;
+    transition: all .5s ease;
+}
+.container2 .boxs .box:nth-child(10) .box-top i{
+    font-size: 25px;
+    padding: .5rem;
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    transform: rotate(45deg) ;
+    position: absolute;
+    right: 0;
+    color: rgba(177, 7, 0, 1);
+    cursor: pointer;
+}   
+.container2 .boxs .box:nth-child(10) .box-bottom{
+    color: rgba(177, 7, 0, 1);
+    position: absolute;
+    top: 73%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s ease;
+
+}
+.container2 .boxs .box:nth-child(10) .box-bottom p{
+    font-weight: 700;
+    font-size: 32px;
+    color: rgba(177, 7, 0, 1);
+    font-family: GT Walsheim Pro;
+    text-align: left;
+    transition: .5s ease-in-out;
+
+}
+
+.container2 .boxs1{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 1rem 0rem;
+
+}
+
+.container2 .boxs1 .boxs1 .box1{
+    width: 300px;
+    height: 230px;
+    border-radius: 20px;
+    padding: 1rem;
+    background: rgba(217, 217, 217, 1);
+    position: relative;
+    overflow: hidden;
+    transition: all .5s ease;
+}
+.container2 .boxs1  .box2{
+    width: 140px;
+    height: 230px;
+    border-radius: 20px;
+    padding: 1rem;
+    background: rgba(217, 217, 217, 1);
+    position: relative;
+    overflow: hidden;
+    transition: all .5s ease;
+}
+ .boxs3{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 1rem 0rem;
+ }
+.boxs3 .box3{
+    width: 30%;
+    height: 200px;
+    border-radius: 20px;
+    padding: 1rem;
+    background: rgba(217, 217, 217, 1);
+    position: relative;
+    overflow: hidden;
+    transition: all .5s ease;
+}
+@media screen and (max-width: 1200px) {
+    .container2{
+       padding:0rem 1rem;
+       overflow: hidden;
+    }
+    .container2 .boxs{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .container2 .boxs .box:nth-child(1){
+        width: 47%;
+        font-size: 25px;
+    }
+    .container2 .boxs .box:nth-child(2){
+        width: 47%;
+    }
+    .container2 .boxs .box:nth-child(3){
+        width: 47%;
+    }
+    .container2 .boxs .box:nth-child(4){    
+        width: 47%;
+    }
+    .container2 .boxs .box:nth-child(5){
+        width: 47%;
+    }
+    .container2 .boxs .box:nth-child(6){
+        width: 47%;
+    }
+    .container2 .boxs .box:nth-child(7){
+        width: 47%;
+    }
+    .container2 .boxs .box:nth-child(8){
+        width: 47%;
+    }
+    .container2 .boxs .box:nth-child(9){
+        width: 47%;
+    }
+    .container2 .boxs .box:nth-child(10){
+        width: 47%;
+    }
+    .container2 .boxs .box:nth-child(1) .box-bottom{
+        top: 73%;
+        left: 40%;
+        text-align: left;
+       
+    }
+    .container2 .boxs .box:nth-child(2) .box-bottom{
+        top: 73%;
+        left: 40%;
+        text-align: left;
+       
+    }
+    .container2 .boxs .box:nth-child(3) .box-bottom{
+        top: 73%;
+        left: 40%;
+        text-align: left;
+       
+    }
+    .container2 .boxs .box:nth-child(4) .box-bottom{
+        top: 73%;
+        left: 40%;
+        text-align: left;
+       
+    }
+    .container2 .boxs .box:nth-child(5) .box-bottom{
+        top: 73%;
+        left: 40%;
+        text-align: left;
+       
+    }
+    .container2 .boxs .box:nth-child(6) .box-bottom{
+        top: 73%;
+        left: 40%;
+        text-align: left;
+       
+    }
+    .container2 .boxs .box:nth-child(7) .box-bottom{
+        top: 73%;
+        left: 40%;
+        text-align: left;
+       
+    }
+    .container2 .boxs .box:nth-child(8) .box-bottom{
+        top: 73%;
+        left: 40%;
+        text-align: left;
+       
+    }
+    .container2 .boxs .box:nth-child(9) .box-bottom{
+        top: 73%;
+        left: 40%;
+        text-align: left;
+       
+    }
+    .container2 .boxs .box:nth-child(10) .box-bottom{
+        top: 73%;
+        left: 40%;
+        text-align: left;
+       
+    }
+    .container2 .boxs1{
+        padding: 0px;
+    } 
+    .boxs1 .box1{
+        width: 47% !important;
+        height: 150px !important;
+    }
+    .boxs1 .box2{
+        width: 157px !important;
+        height: 150px !important;
+    }
+    .boxs3 .box3{
+        width: 100% ;
+    }
+}

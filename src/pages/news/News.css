@@ -1,0 +1,162 @@
+main .container4 {
+
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 0rem 1rem !important;
+}
+main .container4 .search-results-img {
+    width: 55%;
+}
+a{
+    text-decoration: none;
+}
+
+main .container4 .search-results-img .info1-box-img {
+    width: 100%;
+    padding: .9rem;
+    border-radius: 20px;
+    background-color: rgba(254, 254, 254, 1);
+    transition: all .3s ease;
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+main .container4 .search-results-img .info1-box-img:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+main .container4 .search-results-img .info1-box-img .name-info-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .5rem;
+    margin-bottom: .5rem;
+}
+main .container4 .search-results-img .info1-box-img .name-info-img .other i{
+    font-size: 20px;
+    color: rgba(29, 148, 141, 1);
+    padding: 5px 5px;
+    border-radius: 20%;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+main .container4 .search-results-img .info1-box-img .name-info-img .name-img {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+main .container4 .search-results-img .info1-box-img .name-info-img .img-info-img{
+    width: 30px;
+    margin-right:10px;
+}
+main .container4 .search-results-img .info1-box-img .name-info-img .img-info-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 2%;
+    object-fit: cover;
+}
+
+main .container4 .search-results-img .info1-box-img .name-info-img .name-img .name-product-img  a h4{
+    font-size: 20px;
+    
+    font-weight: 500;
+}
+
+main .container4 .search-results-img .info1-box-img .name-info-img .name-img .name-product-img a p{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(5, 5, 5, 1);
+    opacity: .8;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+    margin-top: 3px;
+}
+
+main .container4 .search-results-img .info1-box-img .about-results-img {
+    display: flex;
+    gap: .5rem;
+}
+
+main .container4 .search-results-img .info1-box-img .about-results-img .about-img-img {
+    width: 100%;
+    margin-right: 15px;
+}
+
+main .container4 .search-results-img .info1-box-img .about-results-img .about-img-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 7%;
+    margin-top: -5px;
+}
+
+main .container4 .search-results-img .info1-box-img .about-results-img .about-text-img {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    font-size: 14px;
+    font-weight: 400;
+    width: 100%;
+}
+main .container4 .search-results-img .info1-box-img .about-results-img .about-bottom-img{
+    margin-top: 30px;
+}
+
+
+main .container4 .search-results-img .info1-box-img .about-results-img .about-text-img  a h1{
+    font-size: 16px !important;
+    font-weight: 500;
+    color: rgba(29, 148, 141, 1);
+    margin-bottom: 35px;
+}
+@media screen and (max-width: 1200px) {
+    main .container4 {
+        padding: 0rem 1rem;
+    }
+    main .container4 .search-results-img .info1-box-img .about-results-img {
+        width: 100%;
+        display: flex;    
+}
+    main .container4 .search-results-img .info1-box-img .about-results-img .about-text-img{
+        width: 100%;
+        font-size: 13px;
+    }
+
+    main .container4 .search-results-img .info1-box-img .about-results-img .about-img-img{
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+    main .container4 .search-results-img .info1-box-img .about-results-img .about-img-img img{
+        width: 100%;
+    }
+    main .container4 {
+        max-width: 100% !important;
+    }
+    main .container4 .search-results-img .info1-box-img {
+        width: 100%;
+    }
+    main .container4 .search-results-img{
+        width: 100% !important;
+    margin-top:40px !important;
+
+    }
+    main .container4 .search-results-img .info1-box-img .about-results-img .about-bottom-img{
+        margin-top: 0px;
+    }
+   
+    main .container4 .search-results-img .info1-box-img .about-results-img .about-bottom-img{
+        margin-top: -25px;
+    }
+    main .container4 .search-results-img .info1-box-img .about-results-img .about-text-img  a h1{
+        font-size: 16.5px;
+        font-weight: 500;
+        color: rgba(29, 148, 141, 1);
+        margin-bottom: 35px;
+    }
+   
+
+
+}

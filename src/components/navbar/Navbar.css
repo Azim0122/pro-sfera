@@ -1,0 +1,99 @@
+nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.3rem 0;
+    border-bottom: 1px solid rgba(95, 224, 216, 1);
+}
+
+nav .container h1{
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+nav .container h1 span{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(95, 224, 216, 1);
+    padding: 0.3rem .5rem;
+    border-radius: 0.5rem;
+    gap: .5rem;
+}
+
+
+nav .container .buttons{
+    display: flex;
+    align-items: center;
+    gap: .7em;
+}
+.btns{
+    display: flex;
+    gap: 10px;
+  }
+nav .container .buttons .btn1{
+    background-color: rgba(95, 224, 216, 1);
+    padding: 0.7rem 1rem;
+    border-radius: 1.5rem;
+    color: white;
+    font-weight: 500;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 0.3s;
+    border: none;
+}
+nav .container .buttons .btn1:hover{
+    background-color: rgba(40, 161, 153, 0.767);
+    box-shadow: 0 0 20px rgba(40, 161, 153, 0.767);
+    transform: scale(1);
+}
+nav .container .buttons .btn1:active{
+    transform: scale(0.9);
+}
+nav .container .buttons .btn2{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    padding: 1em 1rem;        
+    border-radius: 50%;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+    border: none;
+    background-color: rgba(95, 224, 216, 1);
+}
+nav .container .buttons .btn2 i{
+    font-size: 1.2rem;
+}
+nav .container .buttons .btn2:hover{
+    background-color: rgba(40, 161, 153, 0.767);
+    box-shadow: 0 0 20px rgba(40, 161, 153, 0.767);
+    transform: scale(1);
+}
+nav .container .buttons .btn2:active{
+    transform: scale(0.9);
+}
+nav .container .buttons .btn-settings:hover i{
+    animation: logo 3s ease-in-out both;
+}
+@media screen and (max-width: 768px) {
+    .container{
+    padding: 0rem 1rem;
+    }
+    nav .container h1{
+        display: none;
+    }
+    nav .container .buttons{
+    padding: 0rem 1rem;
+        width: 100%;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       .btns{
+         display: flex;
+         gap: 10px;
+       }
+    }
+    
+}

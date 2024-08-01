@@ -1,0 +1,225 @@
+@font-face {
+    font-family: GT Walsheim Pro;
+    src: local("GT Walsheim Pro Regular"),local("GTWalsheimProRegular"),url(GTWalsheimProRegular.woff2) format("woff2"),url(GTWalsheimProRegular.woff) format("woff"),url(GTWalsheimProRegular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal
+  }
+  @font-face {
+    font-family: GT Walsheim Pro;
+    src: local("GT Walsheim Pro Bold"),local("GTWalsheimProBold"),url(GTWalsheimProBold.woff2) format("woff2"),url(GTWalsheimProBold.woff) format("woff"),url(GTWalsheimProBold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal
+  }
+main section .container{
+    margin-top: 90px;
+    
+}
+main section .container>h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .3rem;
+    margin-bottom: 55px;
+}
+main section .container h1 span{
+    display: flex;
+    align-items: center;
+    background-color: rgba(95, 224, 216, 1);
+    padding: 0.3rem .5rem;
+    border-radius: 0.5rem;
+    gap: .5rem;
+}
+
+main section .container .search{
+    position: relative;
+}
+main section .container .search-input{
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    align-items: center;
+    gap: .5rem;
+    padding: .9em .9rem;
+    border-radius: 50px;
+    background-color:transparent;  
+    border: 2px solid  rgba(95, 224, 216, 1);
+   transition: 0.3s;
+   margin-bottom: 25%;
+   position: relative;
+}
+main section .container .search-input:focus-within{
+    box-shadow: 0 0 20px rgba(95, 224, 216, 1);
+}
+main section .container .search-input input{
+    border: none;
+    outline: none;
+    flex: 1;
+    height: 100%;
+    background-color:transparent;
+    color:rgba(5, 5, 5, 1);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: GT Walsheim Pro;
+
+}
+
+main section .container .search-input input::placeholder{
+    color: rgba(5, 5, 5, 1);
+    opacity: .8;
+
+}
+main section .container .search-input button{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 51px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: rgba(95, 224, 216, 1);
+    transition: 0.3s;
+    border: none;
+    right: 0px;
+}
+main section .container .search-input button i{
+    font-size: 20px;
+    transform: scale(1.5);
+    color: white;
+}
+main section .container .search-input button:hover{
+    background-color: rgba(61, 228, 217, 0.973);
+}
+main section .container .search-input button:hover i{
+    animation: globe 3s ease-in-out infinite;
+}
+@keyframes globe {
+    0%{
+        transform: rotate(0deg) scale(1.5);
+    }
+    100%{
+        transform:  rotate(360deg) scale(1.5) ;
+    }
+}
+main section .container .search-info{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 1rem;
+    margin-bottom: 80px;
+    position: absolute;
+    top: 50px;
+}
+main section .container .search-info{
+    margin-left: 150px;
+}
+main section .container .search-info .weather{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+main section .container .search-info .weather i{
+    font-size: 25px;
+    background-color: rgba(95, 224, 216, 1);
+    padding: .5rem;
+    border-radius: 50%;
+    color: white;
+}
+main section .container .search-info .weather:hover .bx-sun{
+    animation: sun 3s ease-in-out infinite;
+}
+@keyframes sun {
+    0%{
+        transform: scale(1) rotate(0deg);
+    }
+    100%{
+        transform: scale(1) rotate(360deg);
+    }
+}
+main section .container .search-info .weather .bx-cloud{
+    display: none;
+}
+main section .container .search-info .weather span{ 
+    font-size: 20px;
+    color: rgba(5, 5, 5, 1);
+    opacity: .9;
+    font-family: GT Walsheim Pro;
+}
+main section .container .search-info .courses{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+main section .container .search-info .courses i{
+    font-size: 25px;
+    background-color: rgba(95, 224, 216, 1);
+    padding: .5rem;
+    border-radius: 50%;
+    color: white;
+}
+main section .container .search-info .courses:hover i{
+    animation: course 3s ease-in-out infinite;
+}
+@keyframes course {
+    0%{
+        transform: scale(1) rotateY(0deg);
+    }
+    100%{
+        transform: scale(1) rotateY(360deg);
+    }
+}
+main section .container .search-info .courses span{ 
+    font-size: 20px;
+    color: rgba(5, 5, 5, 1);
+    opacity: .9;
+    font-family: GT Walsheim Pro;
+}
+main section .container .search-info .courses .bx-ruble{
+    display: none;
+}
+main section .container4 .links{
+   margin-bottom: 20px;
+}
+main section .container4 .links ul{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+li{
+    list-style: none;
+}
+.links li{
+    cursor: pointer;
+}
+main section .container4 .links ul li a{
+    text-decoration: none;
+    color: rgba(5, 5, 5, 1);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: GT Walsheim Pro;
+    transition: 0.3s;
+}
+main section .container4 .links ul li a:hover{
+    color: rgba(95, 224, 216, 1);
+}
+main section .container4 .links ul li a.active{
+    color: rgba(95, 224, 216, 1);
+}
+hr{
+    opacity: .8;
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 1200px) {
+   
+   
+    main section .container .search-input{
+        width: 100%;
+    }
+main section .container .search-info{
+    width: 100%;
+    left: -120px;
+}
+main section .container4 .links ul{
+    margin-left: 20px;
+}
+}
