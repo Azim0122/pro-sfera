@@ -142,7 +142,7 @@ main section .container .search-info .weather .bx-cloud{
 main section .container .search-info .weather span{ 
     font-size: 20px;
     color: rgba(5, 5, 5, 1);
-    opacity: .9;
+    opacity: .6;
     font-family: GT Walsheim Pro;
 }
 main section .container .search-info .courses{
@@ -171,7 +171,7 @@ main section .container .search-info .courses:hover i{
 main section .container .search-info .courses span{ 
     font-size: 20px;
     color: rgba(5, 5, 5, 1);
-    opacity: .9;
+    opacity: .6;
     font-family: GT Walsheim Pro;
 }
 main section .container .search-info .courses .bx-ruble{
@@ -190,10 +190,11 @@ li{
 }
 .links li{
     cursor: pointer;
+
 }
-main section .container4 .links ul li a{
+main section .container4 .links ul li {
     text-decoration: none;
-    color: rgba(5, 5, 5, 1);
+    color: rgba(5, 5, 5, 0.551);
     font-size: 18px;
     font-weight: 400;
     font-family: GT Walsheim Pro;

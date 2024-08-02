@@ -3,19 +3,12 @@
         src: url('./GT/GTWalsheimPro-Black.woff2') format('woff2'),
             url('./GT/GTWalsheimPro-Black.woff') format('woff');
     }
-
-
-
-
     * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
         font-family: 'GT Walsheim Pro', sans-serif;
-
-
     }
-
     .container {
         max-width: 1200px;
         margin: 0 auto;
