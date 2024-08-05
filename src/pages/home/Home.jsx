@@ -13,7 +13,7 @@ function Home() {
        <main>
         <section className='section_1'>
           <div className="container">
-          <h1><span><img className='logo' style={{width: '65px'}} src="./public/imgs/logo.svg" alt="" /> <img style={{width: '102px'}} src="./public/imgs/logo-text.svg" alt="" /></span><img style={{width: '155px'}} src="./public/imgs/logo-text2.svg" alt="" /></h1>
+          <h1><img className='logo'  src="./public/imgs/logo.svg" alt="" /> </h1>
           <div className="search">
            <div className="search-input">
            <input placeholder='Введите ваш запрос' type="input"  />

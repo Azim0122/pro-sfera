@@ -14,18 +14,14 @@ nav .container3 h1 {
     gap: .3rem;
 }
 
-nav .container3 h1 span {
+nav .container3 h1 img {
     display: flex;
     align-items: center;
-    background-color: rgba(95, 224, 216, 1);
     padding: 0.3rem .5rem;
-    border-radius: 0.5rem;
     gap: .5rem;
+    width: 280px;
 }
 
-nav .container3 h1 span .logo {
-    animation: logo 3s ease-in-out infinite;
-}
 
 nav .container3 .buttons {
     display: flex;
@@ -212,6 +208,13 @@ main .container4 .search-buttons .btnbtn1 {
 
     main .container4 .more-detailed {
         display: none;
+    }
+    nav .container3 h1 img {
+        display: flex;
+        align-items: center;
+        padding: 0.3rem .5rem;
+        gap: .5rem;
+        width: 230px;
     }
 
     main .container4 .search-results .info1-box .about-results {

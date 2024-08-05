@@ -21,13 +21,13 @@ main section .container>h1{
     gap: .3rem;
     margin-bottom: 55px;
 }
-main section .container h1 span{
+main section .container h1 img{
     display: flex;
     align-items: center;
-    background-color: rgba(95, 224, 216, 1);
     padding: 0.3rem .5rem;
     border-radius: 0.5rem;
     gap: .5rem;
+
 }
 
 main section .container .search{
@@ -211,7 +211,15 @@ hr{
     margin-bottom: 20px;
 }
 @media screen and (max-width: 1200px) {
-   
+    main section .container h1 img{
+        display: flex;
+        align-items: center;
+        padding: 0.3rem .5rem;
+        border-radius: 0.5rem;
+        gap: .5rem;
+        width: 300px;
+    
+    }
    
     main section .container .search-input{
         width: 100%;

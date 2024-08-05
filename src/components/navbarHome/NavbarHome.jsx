@@ -8,7 +8,7 @@ function NavbarHome() {
             <nav>
                 <div className="container3 media">
                     <Link to={"/"}>
-                        <h1><span><img className='logo' style={{ width: '40px' }} src="./public/imgs/logo.svg" alt="" /> <img style={{ width: '62px' }} src="./public/imgs/logo-text.svg" alt="" /></span><img style={{ width: '93px' }} src="./public/imgs/logo-text2.svg" alt="" /></h1>
+                        <h1><img className='logo' src="./public/imgs/logo.svg" alt="" /></h1>
                     </Link>
                     <div className="search1">
                         <div className="search">
