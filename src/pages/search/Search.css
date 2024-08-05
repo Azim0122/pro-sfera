@@ -476,9 +476,9 @@ main .container4 .btns .search-buttons {
         width: 48% !important;
         cursor: pointer;       
         margin-bottom: 30px;
-    font-size: 14.8px;
+    font-size: 14px;
         .picture-info{
-            margin-top: 55px;
+            margin-top: 50px;
             img{
                 width: 25px;
                 height: 25px;
@@ -492,12 +492,12 @@ main .container4 .btns .search-buttons {
     
     main .container4 .search-results .info1-box .picture:nth-child(2){
         width: 48% !important;
-    font-size: 14.8px;
+    font-size: 14px;
 
         cursor: pointer;       
         margin-bottom: 30px;
         .picture-info{
-            margin-top: 55px;
+            margin-top: 50px;
             img{
                 width: 25px;
                 height: 25px;
@@ -510,12 +510,12 @@ main .container4 .btns .search-buttons {
     }
     main .container4 .search-results .info1-box .picture:nth-child(3){
         width: 48% !important;
-    font-size: 14.8px;
+    font-size: 14px;
 
         cursor: pointer;       
         margin-top: -30px;
         .picture-info{
-            margin-top: 55px;
+            margin-top: 50px;
             img{
                 width: 25px;
                 height: 25px;
@@ -527,12 +527,12 @@ main .container4 .btns .search-buttons {
         }          
     }
     main .container4 .search-results .info1-box .picture:nth-child(4){
-    font-size: 14.8px;
+    font-size: 14px;
     width: 48% !important;
         cursor: pointer;       
         margin-top: -30px;
         .picture-info{
-            margin-top: 55px;
+            margin-top: 50px;
             img{
                 width: 25px;
                 height: 25px;
@@ -545,10 +545,10 @@ main .container4 .btns .search-buttons {
     }
     main .container4 .search-results .info1-box .picture:nth-child(5){
         width: 100% !important;
-    font-size: 14.8px;
+    font-size: 14px;
     cursor: pointer;       
         .picture-info{
-            margin-top: 55px;
+            margin-top: 50px;
             img{
                 width: 25px;
                 height: 25px;
@@ -561,10 +561,10 @@ main .container4 .btns .search-buttons {
     }
     main .container4 .search-results .info1-box .picture:nth-child(6){
         width: 48% !important;
-    font-size: 14.8px;
+    font-size: 14px;
     cursor: pointer;       
         .picture-info{
-            margin-top: 55px;
+            margin-top: 50px;
             img{
                 width: 25px;
                 height: 25px;
@@ -579,11 +579,11 @@ main .container4 .btns .search-buttons {
     }
     main .container4 .search-results .info1-box .picture:nth-child(7){
         width: 48% !important;
-    font-size: 14.8px;
+    font-size: 14px;
     cursor: pointer;     
         margin-bottom: 15px;  
         .picture-info{
-            margin-top: 55px;
+            margin-top: 50px;
             img{
                 width: 25px;
                 height: 25px;
