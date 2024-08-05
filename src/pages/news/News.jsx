@@ -30,7 +30,7 @@ function News() {
                         
                             <div className="about-text-img">
                                 <Link>
-                                <h1>«Сделано на iPad». Nike выпустила уникальные кроссовки для Тима Кука</h1>
+                                <h1>«Сделано на iPad».Nike выпустила уникальные кроссовки...</h1>
                                 </Link> 
                                 <div className="about-bottom-img">
                             <h3>Youtube</h3>

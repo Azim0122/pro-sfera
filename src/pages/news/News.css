@@ -121,12 +121,13 @@ main .container4 .search-results-img .info1-box-img .about-results-img .about-te
 }
     main .container4 .search-results-img .info1-box-img .about-results-img .about-text-img{
         width: 100%;
-        font-size: 13px;
+        font-size: 12px;
+        font-weight: 600;
     }
 
     main .container4 .search-results-img .info1-box-img .about-results-img .about-img-img{
         display: flex;
-        width: 100%;
+        width: 88%;
         height: 100%;
     }
     main .container4 .search-results-img .info1-box-img .about-results-img .about-img-img img{
@@ -141,17 +142,17 @@ main .container4 .search-results-img .info1-box-img .about-results-img .about-te
     main .container4 .search-results-img{
         width: 100% !important;
     margin-top:40px !important;
-
     }
     main .container4 .search-results-img .info1-box-img .about-results-img .about-bottom-img{
         margin-top: 0px;
+        
     }
    
     main .container4 .search-results-img .info1-box-img .about-results-img .about-bottom-img{
-        margin-top: -25px;
+        margin-top: -10px;
     }
     main .container4 .search-results-img .info1-box-img .about-results-img .about-text-img  a h1{
-        font-size: 16.5px;
+        font-size: 14px !important;
         font-weight: 500;
         color: rgba(29, 148, 141, 1);
         margin-bottom: 35px;

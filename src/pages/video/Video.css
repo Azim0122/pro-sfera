@@ -115,6 +115,12 @@ main .container4 .search-results-vid .info1-box-vid .about-results-vid .about-te
     main .container4 {
         padding: 0rem 1rem;
     }
+    main .container4 .search-results-vid .info1-box-vid .about-results-vid .about-text-vid  a h1{
+        font-size: 16.6px;
+        font-weight: 500;
+        color: rgba(29, 148, 141, 1);
+        margin-bottom: 35px;
+    }
     main .container4 .search-results-vid .info1-box-vid .about-results-vid {
         width: 100%;
         display: flex;    
