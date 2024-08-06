@@ -4,7 +4,7 @@ import "./ProServices.css"
 function ProServices({ category }) {
   return (
     <>
-      <div className="container2">
+
         {
           category == "Сервисы" && <div className="boxs">
 
@@ -27,7 +27,7 @@ function ProServices({ category }) {
         {
           category == "Новости" && <div className="boxs">
 
-           <div className="container2">
+           <div className="container4">
             <div className="boxs1">
               <div className="boxs1">
                 <div className="box1">
@@ -72,7 +72,7 @@ function ProServices({ category }) {
           </div>
         }
         {
-          category == "Виджеты" &&<div className="container2"> 
+          category == "Виджеты" &&<div className="container4"> 
           <div className="boxs3">
 
 {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((item, index) => {
@@ -84,7 +84,7 @@ function ProServices({ category }) {
           </div>
           </div>
         }
-        </div>
+      
 
     </>
   )

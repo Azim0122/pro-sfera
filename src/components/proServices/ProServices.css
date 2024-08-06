@@ -1,18 +1,16 @@
 @font-face {
-    font-family: GT Walsheim Pro;
-    src: local("GT Walsheim Pro Bold"),local("GTWalsheimProBold"),url(GTWalsheimProBold.woff2) format("woff2"),url(GTWalsheimProBold.woff) format("woff"),url(GTWalsheimProBold.ttf) format("truetype");
-    font-weight: 700;
-    font-style: normal
-  }
-.container2 .boxs{
+    font-family: 'GT Walsheim Pro';
+    src: url('./GT/GTWalsheimPro-Black.woff') format('woff2'),
+        url('./GT/GTWalsheimPro-Black.woff') format('woff');
+}
+.container4 .boxs{
     display: flex;
     align-items: center;
-    justify-content: start;
-    gap: 1rem;
+    gap: 1.6rem;
    flex-wrap: wrap;
    margin-bottom: 20px;
 }
-.container2 .boxs .box{
+.container4 .boxs .box{
     width: 23%;
     height: 170px;
     border-radius: 20px;
@@ -22,7 +20,7 @@
     overflow: hidden;
     transition: all .5s ease;
 }
-.container2 .boxs .box .box-top{
+.container4 .boxs .box .box-top{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -31,15 +29,16 @@
     transition: all .5s ease;
 
 }
-.container2 .boxs .box .box-top span{
+.container4 .boxs .box .box-top span{
     font-weight: 300;
     font-size: 18px;
     color:  rgba(5, 5, 5, 1);
     opacity: .6;
     font-family: GT Walsheim Pro;
+    text-transform: uppercase;
     transition: all .5s ease;
 }
-.container2 .boxs .box .box-top i{
+.container4 .boxs .box .box-top i{
     font-size: 25px;
     padding: .5rem;
     border-radius: 50%;
@@ -50,7 +49,7 @@
     color: rgba(255, 134, 134, 1);
     cursor: pointer;
 }   
-.container2 .boxs .box .box-bottom{
+.container4 .boxs .box .box-bottom{
     color: rgba(255, 134, 134, 1);
     position: absolute;
     top: 73%;
@@ -62,7 +61,7 @@
     transition: all .5s ease;
 
 }
-.container2 .boxs .box .box-bottom p{
+.container4 .boxs .box .box-bottom p{
     font-weight: 700;
     font-size: 32px;
     color: rgba(255, 134, 134, 1);
@@ -73,7 +72,7 @@
 }
 
 /* 2 */
-.container2 .boxs .box:nth-child(2){
+.container4 .boxs .box:nth-child(2){
     width: 23%;
     height: 170px;
     border-radius: 20px;
@@ -83,7 +82,7 @@
     overflow: hidden;
     transition: all .5s ease;
 }
-.container2 .boxs .box:nth-child(2) .box-top{
+.container4 .boxs .box:nth-child(2) .box-top{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -92,7 +91,7 @@
     transition: all .5s ease;
 
 }
-.container2 .boxs .box:nth-child(2) .box-top span{
+.container4 .boxs .box:nth-child(2) .box-top span{
     font-weight: 300;
     font-size: 18px;
     color:  rgba(5, 5, 5, 1);
@@ -100,7 +99,7 @@
     font-family: GT Walsheim Pro;
     transition: all .5s ease;
 }
-.container2 .boxs .box:nth-child(2) .box-top i{
+.container4 .boxs .box:nth-child(2) .box-top i{
     font-size: 25px;
     padding: .5rem;
     border-radius: 50%;
@@ -108,25 +107,13 @@
     transform: rotate(45deg) ;
     position: absolute;
     right: 0;
-    color: rgba(255, 0, 0, 1);
+    color: rgba(21, 101, 192, 1);
     cursor: pointer;
 }   
-.container2 .boxs .box:nth-child(2) .box-bottom{
-    color: rgba(255, 0, 0, 1);
-    position: absolute;
-    top: 73%;
-    left: 30%;
-    transform: translate(-50%,-50%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all .5s ease;
-
-}
-.container2 .boxs .box:nth-child(2) .box-bottom p{
+.container4 .boxs .box:nth-child(2) .box-bottom p{
     font-weight: 700;
     font-size: 32px;
-    color: rgba(255, 0, 0, 1);
+    color: rgba(21, 101, 192, 1);
     font-family: GT Walsheim Pro;
     text-align: left;
     transition: .5s ease-in-out;
@@ -134,7 +121,7 @@
 }
 
 /* 3 */
-.container2 .boxs .box:nth-child(3){
+.container4 .boxs .box:nth-child(3){
     width: 23%;
     height: 170px;
     border-radius: 20px;
@@ -144,7 +131,7 @@
     overflow: hidden;
     transition: all .5s ease;
 }
-.container2 .boxs .box:nth-child(3) .box-top{
+.container4 .boxs .box:nth-child(3) .box-top{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -153,7 +140,7 @@
     transition: all .5s ease;
 
 }
-.container2 .boxs .box:nth-child(3) .box-top span{
+.container4 .boxs .box:nth-child(3) .box-top span{
     font-weight: 300;
     font-size: 18px;
     color:  rgba(5, 5, 5, 1);
@@ -161,7 +148,7 @@
     font-family: GT Walsheim Pro;
     transition: all .5s ease;
 }
-.container2 .boxs .box:nth-child(3) .box-top i{
+.container4 .boxs .box:nth-child(3) .box-top i{
     font-size: 25px;
     padding: .5rem;
     border-radius: 50%;
@@ -172,7 +159,7 @@
     color: rgba(255, 0, 0, 1);
     cursor: pointer;
 }   
-.container2 .boxs .box:nth-child(3) .box-bottom{
+.container4 .boxs .box:nth-child(3) .box-bottom{
     color: rgba(255, 0, 0, 1);
     position: absolute;
     top: 73%;
@@ -184,7 +171,7 @@
     transition: all .5s ease;
 
 }
-.container2 .boxs .box:nth-child(3) .box-bottom p{
+.container4 .boxs .box:nth-child(3) .box-bottom p{
     font-weight: 700;
     font-size: 32px;
     color: rgba(255, 0, 0, 1);
@@ -195,7 +182,7 @@
 }
 
 /* 4 */
-.container2 .boxs .box:nth-child(4){
+.container4 .boxs .box:nth-child(4){
     width: 23%;
     height: 170px;
     border-radius: 20px;
@@ -205,7 +192,7 @@
     overflow: hidden;
     transition: all .5s ease;
 }
-.container2 .boxs .box:nth-child(4) .box-top{
+.container4 .boxs .box:nth-child(4) .box-top{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -214,7 +201,7 @@
     transition: all .5s ease;
 
 }
-.container2 .boxs .box:nth-child(4) .box-top span{
+.container4 .boxs .box:nth-child(4) .box-top span{
     font-weight: 300;
     font-size: 18px;
     color:  rgba(5, 5, 5, 1);
@@ -222,7 +209,7 @@
     font-family: GT Walsheim Pro;
     transition: all .5s ease;
 }
-.container2 .boxs .box:nth-child(4) .box-top i{
+.container4 .boxs .box:nth-child(4) .box-top i{
     font-size: 25px;
     padding: .5rem;
     border-radius: 50%;
@@ -233,7 +220,7 @@
     color: rgba(0, 158, 253, 1);
     cursor: pointer;
 }   
-.container2 .boxs .box:nth-child(4) .box-bottom{
+.container4 .boxs .box:nth-child(4) .box-bottom{
     color: rgba(0, 158, 253, 1);
     position: absolute;
     top: 73%;
@@ -245,7 +232,7 @@
     transition: all .5s ease;
 
 }
-.container2 .boxs .box:nth-child(4) .box-bottom p{
+.container4 .boxs .box:nth-child(4) .box-bottom p{
     font-weight: 700;
     font-size: 32px;
     color: rgba(0, 158, 253, 1);
@@ -256,7 +243,7 @@
 }
 
 /* 5 */
-.container2 .boxs .box:nth-child(5){
+.container4 .boxs .box:nth-child(5){
     width: 23%;
     height: 170px;
     border-radius: 20px;
@@ -266,7 +253,7 @@
     overflow: hidden;
     transition: all .5s ease;
 }
-.container2 .boxs .box:nth-child(5) .box-top{
+.container4 .boxs .box:nth-child(5) .box-top{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -275,7 +262,7 @@
     transition: all .5s ease;
 
 }
-.container2 .boxs .box:nth-child(5) .box-top span{
+.container4 .boxs .box:nth-child(5) .box-top span{
     font-weight: 300;
     font-size: 18px;
     color:  rgba(5, 5, 5, 1);
@@ -283,7 +270,7 @@
     font-family: GT Walsheim Pro;
     transition: all .5s ease;
 }
-.container2 .boxs .box:nth-child(5) .box-top i{
+.container4 .boxs .box:nth-child(5) .box-top i{
     font-size: 25px;
     padding: .5rem;
     border-radius: 50%;
@@ -291,32 +278,22 @@
     transform: rotate(45deg) ;
     position: absolute;
     right: 0;
-    color: rgba(0, 158, 253, 1);
+    color: rgba(171, 242, 238, 1);
+    opacity: .8;
     cursor: pointer;
 }   
-.container2 .boxs .box:nth-child(5) .box-bottom{
-    color: rgba(0, 158, 253, 1);
-    position: absolute;
-    top: 73%;
-    left: 30%;
-    transform: translate(-50%,-50%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all .5s ease;
 
-}
-.container2 .boxs .box:nth-child(5) .box-bottom p{
+.container4 .boxs .box:nth-child(5) .box-bottom p{
     font-weight: 700;
     font-size: 32px;
-    color: rgba(0, 158, 253, 1);
+    color: rgba(171, 242, 238, 1);
     font-family: GT Walsheim Pro;
     text-align: left;
     transition: .5s ease-in-out;
 
 }
 /* 6 */
-.container2 .boxs .box:nth-child(6){
+.container4 .boxs .box:nth-child(6){
     width: 23%;
     height: 170px;
     border-radius: 20px;
@@ -326,7 +303,7 @@
     overflow: hidden;
     transition: all .5s ease;
 }
-.container2 .boxs .box:nth-child(6) .box-top{
+.container4 .boxs .box:nth-child(6) .box-top{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -335,7 +312,7 @@
     transition: all .5s ease;
 
 }
-.container2 .boxs .box:nth-child(6) .box-top span{
+.container4 .boxs .box:nth-child(6) .box-top span{
     font-weight: 300;
     font-size: 18px;
     color:  rgba(5, 5, 5, 1);
@@ -343,7 +320,7 @@
     font-family: GT Walsheim Pro;
     transition: all .5s ease;
 }
-.container2 .boxs .box:nth-child(6) .box-top i{
+.container4 .boxs .box:nth-child(6) .box-top i{
     font-size: 25px;
     padding: .5rem;
     border-radius: 50%;
@@ -354,7 +331,7 @@
     color: rgba(103, 115, 229, 1);
     cursor: pointer;
 }   
-.container2 .boxs .box:nth-child(6) .box-bottom{
+.container4 .boxs .box:nth-child(6) .box-bottom{
     color: rgba(103, 115, 229, 1);
     position: absolute;
     top: 73%;
@@ -366,7 +343,7 @@
     transition: all .5s ease;
 
 }
-.container2 .boxs .box:nth-child(6) .box-bottom p{
+.container4 .boxs .box:nth-child(6) .box-bottom p{
     font-weight: 700;
     font-size: 32px;
     color: rgba(103, 115, 229, 1);
@@ -376,7 +353,7 @@
 
 }
 /* 7 */
-.container2 .boxs .box:nth-child(7){
+.container4 .boxs .box:nth-child(7){
     width: 23%;
     height: 170px;
     border-radius: 20px;
@@ -386,7 +363,7 @@
     overflow: hidden;
     transition: all .5s ease;
 }
-.container2 .boxs .box:nth-child(7) .box-top{
+.container4 .boxs .box:nth-child(7) .box-top{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -395,7 +372,7 @@
     transition: all .5s ease;
 
 }
-.container2 .boxs .box:nth-child(7) .box-top span{
+.container4 .boxs .box:nth-child(7) .box-top span{
     font-weight: 300;
     font-size: 18px;
     color:  rgba(5, 5, 5, 1);
@@ -403,7 +380,7 @@
     font-family: GT Walsheim Pro;
     transition: all .5s ease;
 }
-.container2 .boxs .box:nth-child(7) .box-top i{
+.container4 .boxs .box:nth-child(7) .box-top i{
     font-size: 25px;
     padding: .5rem;
     border-radius: 50%;
@@ -414,7 +391,7 @@
     color: rgba(155, 55, 149, 1);
     cursor: pointer;
 }   
-.container2 .boxs .box:nth-child(7) .box-bottom{
+.container4 .boxs .box:nth-child(7) .box-bottom{
     color: rgba(155, 55, 149, 1);
     position: absolute;
     top: 73%;
@@ -426,7 +403,7 @@
     transition: all .5s ease;
 
 }
-.container2 .boxs .box:nth-child(7) .box-bottom p{
+.container4 .boxs .box:nth-child(7) .box-bottom p{
     font-weight: 700;
     font-size: 32px;
     color: rgba(155, 55, 149, 1);
@@ -436,7 +413,7 @@
 
 }
 /* 8 */
-.container2 .boxs .box:nth-child(8){
+.container4 .boxs .box:nth-child(8){
     width: 23%;
     height: 170px;
     border-radius: 20px;
@@ -446,7 +423,7 @@
     overflow: hidden;
     transition: all .5s ease;
 }
-.container2 .boxs .box:nth-child(8) .box-top{
+.container4 .boxs .box:nth-child(8) .box-top{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -454,7 +431,7 @@
     position: relative;
     transition: all .5s ease;
 }
-.container2 .boxs .box:nth-child(8) .box-top span{
+.container4 .boxs .box:nth-child(8) .box-top span{
     font-weight: 300;
     font-size: 18px;
     color:  rgba(5, 5, 5, 1);
@@ -462,7 +439,7 @@
     font-family: GT Walsheim Pro;
     transition: all .5s ease;
 }
-.container2 .boxs .box:nth-child(8) .box-top i{
+.container4 .boxs .box:nth-child(8) .box-top i{
     font-size: 25px;
     padding: .5rem;
     border-radius: 50%;
@@ -473,7 +450,7 @@
     color: rgba(95, 224, 216, 1);
     cursor: pointer;
 }   
-.container2 .boxs .box:nth-child(8) .box-bottom{
+.container4 .boxs .box:nth-child(8) .box-bottom{
     color: rgba(95, 224, 216, 1);
     position: absolute;
     top: 73%;
@@ -484,7 +461,7 @@
     justify-content: center;
     transition: all .5s ease;
 }
-.container2 .boxs .box:nth-child(8) .box-bottom p{
+.container4 .boxs .box:nth-child(8) .box-bottom p{
     font-weight: 700;
     font-size: 32px;
     color: rgba(95, 224, 216, 1);
@@ -494,7 +471,7 @@
 
 }
 /* 9 */
-.container2 .boxs .box:nth-child(9){
+.container4 .boxs .box:nth-child(9){
     width: 23%;
     height: 170px;
     border-radius: 20px;
@@ -504,7 +481,7 @@
     overflow: hidden;
     transition: all .5s ease;
 }
-.container2 .boxs .box:nth-child(9) .box-top{
+.container4 .boxs .box:nth-child(9) .box-top{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -513,7 +490,7 @@
     transition: all .5s ease;
 
 }
-.container2 .boxs .box:nth-child(9) .box-top span{
+.container4 .boxs .box:nth-child(9) .box-top span{
     font-weight: 300;
     font-size: 18px;
     color:  rgba(5, 5, 5, 1);
@@ -521,7 +498,7 @@
     font-family: GT Walsheim Pro;
     transition: all .5s ease;
 }
-.container2 .boxs .box:nth-child(9) .box-top i{
+.container4 .boxs .box:nth-child(9) .box-top i{
     font-size: 25px;
     padding: .5rem;
     border-radius: 50%;
@@ -532,7 +509,7 @@
     color: rgba(0, 0, 0, 1);
     cursor: pointer;
 }   
-.container2 .boxs .box:nth-child(9) .box-bottom{
+.container4 .boxs .box:nth-child(9) .box-bottom{
     color: rgba(0, 0, 0, 1);
     position: absolute;
     top: 73%;
@@ -544,7 +521,7 @@
     transition: all .5s ease;
 
 }
-.container2 .boxs .box:nth-child(9) .box-bottom p{
+.container4 .boxs .box:nth-child(9) .box-bottom p{
     font-weight: 700;
     font-size: 32px;
     color: rgba(0, 0, 0, 1);
@@ -554,7 +531,7 @@
 
 }
 /* 10 */
-.container2 .boxs .box:nth-child(10){
+.container4 .boxs .box:nth-child(10){
     width: 23%;
     height: 170px;
     border-radius: 20px;
@@ -564,7 +541,7 @@
     overflow: hidden;
     transition: all .5s ease;
 }
-.container2 .boxs .box:nth-child(10) .box-top{
+.container4 .boxs .box:nth-child(10) .box-top{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -573,7 +550,7 @@
     transition: all .5s ease;
 
 }
-.container2 .boxs .box:nth-child(10) .box-top span{
+.container4 .boxs .box:nth-child(10) .box-top span{
     font-weight: 300;
     font-size: 18px;
     color:  rgba(5, 5, 5, 1);
@@ -581,7 +558,7 @@
     font-family: GT Walsheim Pro;
     transition: all .5s ease;
 }
-.container2 .boxs .box:nth-child(10) .box-top i{
+.container4 .boxs .box:nth-child(10) .box-top i{
     font-size: 25px;
     padding: .5rem;
     border-radius: 50%;
@@ -592,7 +569,7 @@
     color: rgba(177, 7, 0, 1);
     cursor: pointer;
 }   
-.container2 .boxs .box:nth-child(10) .box-bottom{
+.container4 .boxs .box:nth-child(10) .box-bottom{
     color: rgba(177, 7, 0, 1);
     position: absolute;
     top: 73%;
@@ -604,7 +581,7 @@
     transition: all .5s ease;
 
 }
-.container2 .boxs .box:nth-child(10) .box-bottom p{
+.container4 .boxs .box:nth-child(10) .box-bottom p{
     font-weight: 700;
     font-size: 32px;
     color: rgba(177, 7, 0, 1);
@@ -614,7 +591,7 @@
 
 }
 
-.container2 .boxs1{
+.container4 .boxs1{
     display: flex;
     align-items: center;
     justify-content: left;
@@ -624,7 +601,7 @@
 
 }
 
-.container2 .boxs1 .boxs1 .box1{
+.container4 .boxs1 .boxs1 .box1{
     width: 300px;
     height: 230px;
     border-radius: 20px;
@@ -634,7 +611,7 @@
     overflow: hidden;
     transition: all .5s ease;
 }
-.container2 .boxs1  .box2{
+.container4 .boxs1  .box2{
     width: 140px;
     height: 230px;
     border-radius: 20px;
@@ -663,106 +640,106 @@
     transition: all .5s ease;
 }
 @media screen and (max-width: 1200px) {
-    .container2{
+    .container4{
        padding:0rem 1rem;
        overflow: hidden;
     }
-    .container2 .boxs{
+    .container4 .boxs{
         margin-top: 10px;
         margin-bottom: 10px;
     }
-    .container2 .boxs .box:nth-child(1){
+    .container4 .boxs .box:nth-child(1){
         width: 47%;
         font-size: 25px;
     }
-    .container2 .boxs .box:nth-child(2){
+    .container4 .boxs .box:nth-child(2){
         width: 47%;
     }
-    .container2 .boxs .box:nth-child(3){
+    .container4 .boxs .box:nth-child(3){
         width: 47%;
     }
-    .container2 .boxs .box:nth-child(4){    
+    .container4 .boxs .box:nth-child(4){    
         width: 47%;
     }
-    .container2 .boxs .box:nth-child(5){
+    .container4 .boxs .box:nth-child(5){
         width: 47%;
     }
-    .container2 .boxs .box:nth-child(6){
+    .container4 .boxs .box:nth-child(6){
         width: 47%;
     }
-    .container2 .boxs .box:nth-child(7){
+    .container4 .boxs .box:nth-child(7){
         width: 47%;
     }
-    .container2 .boxs .box:nth-child(8){
+    .container4 .boxs .box:nth-child(8){
         width: 47%;
     }
-    .container2 .boxs .box:nth-child(9){
+    .container4 .boxs .box:nth-child(9){
         width: 47%;
     }
-    .container2 .boxs .box:nth-child(10){
+    .container4 .boxs .box:nth-child(10){
         width: 47%;
     }
-    .container2 .boxs .box:nth-child(1) .box-bottom{
+    .container4 .boxs .box:nth-child(1) .box-bottom{
         top: 73%;
         left: 40%;
         text-align: left;
        
     }
-    .container2 .boxs .box:nth-child(2) .box-bottom{
+    .container4 .boxs .box:nth-child(2) .box-bottom{
         top: 73%;
         left: 40%;
         text-align: left;
        
     }
-    .container2 .boxs .box:nth-child(3) .box-bottom{
+    .container4 .boxs .box:nth-child(3) .box-bottom{
         top: 73%;
         left: 40%;
         text-align: left;
        
     }
-    .container2 .boxs .box:nth-child(4) .box-bottom{
+    .container4 .boxs .box:nth-child(4) .box-bottom{
         top: 73%;
         left: 40%;
         text-align: left;
        
     }
-    .container2 .boxs .box:nth-child(5) .box-bottom{
+    .container4 .boxs .box:nth-child(5) .box-bottom{
         top: 73%;
         left: 40%;
         text-align: left;
        
     }
-    .container2 .boxs .box:nth-child(6) .box-bottom{
+    .container4 .boxs .box:nth-child(6) .box-bottom{
         top: 73%;
         left: 40%;
         text-align: left;
        
     }
-    .container2 .boxs .box:nth-child(7) .box-bottom{
+    .container4 .boxs .box:nth-child(7) .box-bottom{
         top: 73%;
         left: 40%;
         text-align: left;
        
     }
-    .container2 .boxs .box:nth-child(8) .box-bottom{
+    .container4 .boxs .box:nth-child(8) .box-bottom{
         top: 73%;
         left: 40%;
         text-align: left;
        
     }
-    .container2 .boxs .box:nth-child(9) .box-bottom{
+    .container4 .boxs .box:nth-child(9) .box-bottom{
         top: 73%;
         left: 40%;
         text-align: left;
        
     }
-    .container2 .boxs .box:nth-child(10) .box-bottom{
+    .container4 .boxs .box:nth-child(10) .box-bottom{
         top: 73%;
         left: 40%;
         text-align: left;
        
     }
-    .container2 .boxs1{
+    .container4 .boxs1{
         padding: 0px;
     } 
     .boxs1 .box1{

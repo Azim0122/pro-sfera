@@ -1,6 +1,6 @@
     @font-face {
         font-family: 'GT Walsheim Pro';
-        src: url('./GT/GTWalsheimPro-Black.woff2') format('woff2'),
+        src: url('./GT/GTWalsheimPro-Black.woff') format('woff2'),
             url('./GT/GTWalsheimPro-Black.woff') format('woff');
     }
     * {
