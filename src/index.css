@@ -9,6 +9,7 @@
         box-sizing: border-box;
         font-family: 'GT Walsheim Pro', sans-serif;
     }
+   
     .container {
         max-width: 1200px;
         margin: 0 auto;
@@ -20,7 +21,7 @@
     }
 
     .container3 {
-        max-width: 1550px;
+        max-width: 1450px;
         margin: 0 auto;
     }
 

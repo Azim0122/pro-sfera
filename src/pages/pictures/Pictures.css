@@ -1,0 +1,228 @@
+.boxs1{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 1.1rem;
+    flex-wrap: wrap;
+    width: 100% !important;
+}
+
+ .boxs1 .boxs1 .box5{
+    width: 230px;
+    height: 200px;
+    border-radius: 20px;
+    padding: 1rem;
+    background: rgba(217, 217, 217, 1);
+    position: relative;
+    overflow: hidden;
+    transition: all .5s ease;
+}
+ .boxs1  .box6{
+    width: 150px;
+    height: 200px;
+    border-radius: 20px;
+    padding: 1rem;
+    background: rgba(217, 217, 217, 1);
+    position: relative;
+    overflow: hidden;
+    transition: all .5s ease;
+}
+.boxs1  .box4{
+    width: 560px;
+    height: 200px;
+    border-radius: 20px;
+    padding: 1rem;
+    background: rgba(217, 217, 217, 1);
+    position: relative;
+    overflow: hidden;
+    transition: all .5s ease;
+}
+ .boxs1  .box2:nth-child(6){
+    width: 10px !important;
+}
+.pictures-imgs11{
+    display: none;
+}
+.pictures {
+    display: flex;
+    gap: 1.5rem .5rem;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+.picture{
+    font-size: 14px;
+}
+ .picture .picture-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+ .picture .picture-info {
+    width: 100%;
+    display: flex;
+    gap: .5rem;
+
+}
+
+ .picture .picture-info p {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+ .picture .picture-info p img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.button3 button a{
+    color: white !important;
+    font-size: 20px !important;
+    }
+@media screen and (max-width: 1200px) {
+    .container3{
+      margin-left: 10px !important;
+      margin-right: 10px !important;
+      margin-top: 50px !important;
+    }
+    .boxs1{
+        display: none;
+    }
+    .pictures-imgs11{
+        display: block;
+    }
+     .picture:nth-child(1) {
+        width: 48% !important;
+        cursor: pointer;       
+   margin-bottom: 15px;
+    font-size: 16px;
+        .picture-info{
+            margin-top: -15px;
+                img{
+                width: 25px;
+                height: 25px;
+
+            }
+        }
+        img{
+            width: 100%;
+            height: 200px;
+        }  
+    }
+    
+     .picture:nth-child(2){
+        width: 48% !important;
+    font-size: 16px;
+   margin-bottom: 15px;
+        cursor: pointer;       
+        .picture-info{
+            margin-top: -15px;
+            img{
+                width: 25px;
+                height: 25px;
+            }
+        }
+        img{
+            width: 100%;
+            height: 200px;
+        }     
+    }
+     .picture:nth-child(3){
+        width: 48% !important;
+    font-size: 16px;
+
+        cursor: pointer;       
+   margin-bottom: 15px;
+
+        .picture-info{
+            margin-top: -15px;
+            img{
+                width: 25px;
+                height: 25px;
+            }
+        }
+        img{
+            width: 100%;
+            height: 200px;
+        }          
+    }
+     .picture:nth-child(4){
+    font-size: 16px;
+    width: 48% !important;
+        cursor: pointer;       
+        margin-bottom: 15px;
+
+        .picture-info{
+            margin-top: -15px;
+            img{
+                width: 25px;
+                height: 25px;
+            }
+        }
+        img{
+            width: 100%;
+            height: 200px;
+        }             
+    }
+     .picture:nth-child(5){
+        width: 100% !important;
+    font-size: 16px;
+    cursor: pointer;  
+   margin-bottom: 15px;
+
+        .picture-info{
+            margin-top: -15px;
+            img{
+                width: 25px;
+                height: 25px;
+            }
+        }
+        img{
+            width: 100%;
+            height: 200px;
+        }             
+    }
+     .picture:nth-child(6){
+        width: 48% !important;
+    font-size: 16px;
+    cursor: pointer;    
+   margin-bottom: 15px;
+
+        .picture-info{
+            margin-top: -15px;
+            img{
+                width: 25px;
+                height: 25px;
+            }
+        }
+        img{
+            width: 100%;
+            height: 200px;
+        }           
+    }
+     .picture:nth-child(7){
+        width: 48% !important;
+    font-size: 16px;
+    cursor: pointer;     
+    margin-bottom: 15px; 
+        .picture-info{
+            margin-top: -15px;
+            img{
+                width: 25px;
+                height: 25px;
+            }
+        }
+        img{
+            width: 100%;
+            height: 200px;
+        }            
+    }
+   
+}

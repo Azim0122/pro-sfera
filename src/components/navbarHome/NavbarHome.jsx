@@ -13,8 +13,11 @@ function NavbarHome() {
                     <div className="search1">
                         <div className="search">
                             <div className="search-input">
-                                <input placeholder='Введите ваш запрос' type="text" />
-                                <button><i class='bx bx-globe'></i></button>
+                          <form action="">
+                          <input type="text" name="focus" required class="search-box" placeholder="Введите ваш запрос" />
+                                <button class="close-icon" type="reset"></button>
+                                <button className='button-srch'><i class='bx bx-globe'></i></button>
+                          </form>
                             </div>
                         </div>
                     </div>

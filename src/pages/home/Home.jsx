@@ -16,7 +16,7 @@ function Home() {
           <h1><img className='logo'  src="./public/imgs/logo.svg" alt="" /> </h1>
           <div className="search">
            <div className="search-input">
-           <input placeholder='Введите ваш запрос' type="input"  />
+           <input placeholder='Введите ваш запрос' type="search"  />
            <button><Link to={"/search"}><i class='bx bx-globe'></i></Link></button>
            </div>
            <div className="search-info">

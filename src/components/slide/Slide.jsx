@@ -26,7 +26,7 @@ function Slide() {
                         
                     </SwiperSlide>   <SwiperSlide>
                        
-                        <NavLink to={'/images'}>  <button className='btnbtn2'>Картинки</button></NavLink>
+                        <NavLink to={'/pictures'}>  <button className='btnbtn2'>Картинки</button></NavLink>
                         
                     </SwiperSlide>   <SwiperSlide>
                         

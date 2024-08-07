@@ -39,7 +39,7 @@ function Search() {
                                         </Link>
                                     </div>
                                     <div className="about-img">
-                                    <Link><p>Add a classic to your rotation with low, mid & high top Air Force 1 shoes… ColorPurple BlackRedO range BlueWhit eBrownGreenYellow Multi-Color.  </p>
+                                    <Link><p>Add a classic to your rotation with low, mid & high top Air Force 1 shoes… ColorPurple BlackRedO range BlueWhit eBrownGreenYellow Multi-Color GreyPink... </p>
                                     </Link>     
                                         <img src="https://s3-alpha-sig.figma.com/img/0144/a045/ad59c72a47e75539f13c9f9a3b6b1792?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LmdZuVwZddQ7XRMF7x3PiXMvJ30XosQilzE1qERJAPk-r2PMaLi7FPzgFKfUqfNpzHTPFe9KB1syyfwWCTby2U0Hb34Kku62rdZy4gf~Qgk-9dwxo0ywFxk~KSTjgXsmZIxzr2Q-VmwotuFTqegTZvCwvDRpf~ZXheN5eT1jZG9Bf1VNGQS6gr94rfGPrQ20Nb8RxOt2qVefHnJ4whsiMeGgD3XZABLHvLyWjKXxjiDdhP5S9B~WtI1~9TvgAkkggrOXUh26Yw-EfDvDIzANoFFdApafIC22YEd4uUQQJ7lppMkOX5X6hNtS78L9UCCSLDEEjilWpS46lvx9IfRGxA__" alt="" />
                                     </div>
@@ -73,7 +73,7 @@ function Search() {
                                     </Link>
                                     </div>
                                     <div className="about-img">
-                                    <Link><p>Add a classic to your rotation with low, mid & high top Air Force 1 shoes… ColorPurple BlackRedO range BlueWhit eBrownGreenYellow Multi-Color. </p>
+                                    <Link><p>Add a classic to your rotation with low, mid & high top Air Force 1 shoes… ColorPurple BlackRedO range BlueWhit... </p>
                                     </Link>
                                         <img src="https://s3-alpha-sig.figma.com/img/0144/a045/ad59c72a47e75539f13c9f9a3b6b1792?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LmdZuVwZddQ7XRMF7x3PiXMvJ30XosQilzE1qERJAPk-r2PMaLi7FPzgFKfUqfNpzHTPFe9KB1syyfwWCTby2U0Hb34Kku62rdZy4gf~Qgk-9dwxo0ywFxk~KSTjgXsmZIxzr2Q-VmwotuFTqegTZvCwvDRpf~ZXheN5eT1jZG9Bf1VNGQS6gr94rfGPrQ20Nb8RxOt2qVefHnJ4whsiMeGgD3XZABLHvLyWjKXxjiDdhP5S9B~WtI1~9TvgAkkggrOXUh26Yw-EfDvDIzANoFFdApafIC22YEd4uUQQJ7lppMkOX5X6hNtS78L9UCCSLDEEjilWpS46lvx9IfRGxA__          " alt="Nike Кроссовки" />
                                     </div>
@@ -191,7 +191,7 @@ function Search() {
 
                                </div>
                               <div className="button3">
-                                <button>Смотреть все</button>
+                                <button><Link to={'/pictures'}>Смотреть все</Link></button>
                               </div>
                             </div>
                             <div className="info1-box">
@@ -219,12 +219,105 @@ function Search() {
                                         </Link>
                                     </div>
                                     <div className="about-img1">
-                                    <Link><p >Made to be worn on the road, court or on the field. These athletic-style sneakers are designed for those actively seeking to push past their boundaries or to are designed for those actively seeking to push past their. These athletic-style sneakers are designed for those actively seeking to push past their boundaries or to are designed for those actively seeking to push past their. These athletic-style sneakers are designed for those actively seeking to push past their boundaries or to are designed for those actively seeking to push past their </p>
+                                    <Link><p >Made to be worn on the road, court or on the field. These athletic-style sneakers are designed for those actively seeking to push past their boundaries or to are designed for those actively seeking to push past their </p>
                                     </Link>
                                     </div>
                                    
                                 </div>
+                                
                             </div>
+                            
+                            <div className="info1-box">
+                                <div className="name-info">
+                                    <div className="name">
+                                        <div className="img-info">
+                                            <img src="https://s3-alpha-sig.figma.com/img/468a/df65/9166c370dc50055107ee1c5191ca12d9?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=O1qKd-8jgWtSwMhZne3p~vZ2sZNHOCy4MjY2e92J~ItAebZOSrI~qwGSidCQ7dnqL-sb2NCYsuS2rBHS7Afz96AwYeHpdba-H3QsAO3kLUyNn29wD02L44vlh4NcnaQN4oCVuX~wFTApfi3nLNpZY0ZWp1pSnwCyIthbbflDw21jK-afx1QFyyKSkhayPnApQ8EpHCVql31QNDWeqnJnlBs9Nzx9pJjK-7fSs8YvmoHH7rFg2EUBFRvppqjLH9QA0-PRD2pQ8KkIus6mVTEtnC~hozKE34lC0wuk0Tg-LG2neNWCDvV6tMJdH9bzqLPzauM8xnyJCRD~spGkVrcCJw__" alt="" />
+                                        </div>
+                                        <div className="name-product">
+                                            <h4> <b>Farfetch</b></h4>
+                                            <a href="">https://www.nike.com › air-force-1-shoes</a>
+                                        </div>
+                                    </div>
+                                    <div className="other">
+                                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                                    </div>
+                                </div>
+                                <hr />
+                                <div className="about-results">
+                                    <div className="about-text">
+                                    <Link>
+                                        <h1>Air Force 1 Shoes. Nike IN</h1>
+                                        <p>Find Air Force 1 Shoes at Nike.com. Free delivery and returns on select orders.  </p>
+                                        </Link>
+                                        <div className="imgs-sneakers">
+                                        <Link><img src="https://s3-alpha-sig.figma.com/img/c250/cb4c/36459bdd8d0667504e1f6b00c1cd25ad?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ekWcXdWvdwdRjbUK5i5J3sTxiGjwDIJLM430F3V-xWK4ozgbvvHYIRmw9YF2bWV4C6IQcghlrnTzuCOEP1~4vl7xxaJnUU6nviGmgS-m6GQv2HU6niCbY0-SMiQZcJ4pbX5UBTLKdaJVjLflCJdz80uNWgjDxTXLxHLvjGYd5rwAGcF-u7r0e2R-sB-op5sK6I-q5Lt9Eh5a3wXqv5XRimIr9k3Ggn98~ynYhu6vmq53xqqWLr9MYIEJv0UACIeowXvMe~LxO5glRnw~o7sRfoz3O21Vtfz0bnCJMBMjG4akxnwK8cXvz-dLd5ODjt1FplRnkiQITf9v5NnhiXLNHw__" alt="" />
+                                        </Link>
+                                        <Link><img src="https://s3-alpha-sig.figma.com/img/2be5/bb16/41066a648a782d02c234c9ec0cacb5a4?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=R3UGHJq3j42VOCejMIwTEpiP7iLLJNU3~O0F0x~deg5lJ~mfz26sMbpUoRqBK4KxFG-9b0JOOQH6Y7Ae1QpSLQx0IhnBQcJJQ0~z8TKFn5G9MjDMrjkQT2zOqhDhezlwgvLw4g70LhCoTYhqmAgrlfqd6MLKHBoUtFFTx05x3HrQBLTH9PIRRImCzgeXs~ke6NisO1C0GIwLBxPMrdlQl~GN6an6Cs~A8Olk2WVxk4w0zf1hP0Buj3KxJpqCH3vRyIJkVlSw~ZjVuZo5jCMZ29iTX7BCJ5bRmuu-7prgl9hN9W0tiQDm3yh2nsH88pvh-XHTquRnLrsHOtRaBHmevg__" alt="" />
+                                        </Link>
+                                        <Link><img src="https://s3-alpha-sig.figma.com/img/bdd7/aa54/fd2800fea785bdf077d99d6104ed2efc?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=GEU63a0paZzZqwUDUK4fG-5daSqCIsQG-DBfGVbFTOkZVTDltuziN06L27JafIigvrQ719Omm5EuB1t8fYYADWnSibkr6gnWTenHNbGA2bBSKiEzKzU7eOvNHFTJ86no5DielXppXZjUB5uM5rh5Rx219zM5D43zTh-DJ00rrqJDPoU6-3R~XtoR~1IpcRmgMB8QmArQwcGZE3vG8ow0k82BGOqq0SuUM1bh1dG8bvhKJ5wzxNz77Mb-ccwlFGEpmOZwUbaVIBNO0OZdgDwZGWepGLPp0u~ODdeSXVzOSUrV7MNMs8SLD80Ib2sBzKiRs0vcBQenQWkgOqrziVLRbg__" alt="" />
+                                        </Link>
+                                        <Link><img src="https://s3-alpha-sig.figma.com/img/d634/bb07/99afc0c57ad6316484607b4c6f19857e?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=O19FJ5oGseef2h~nIScmIEbj8vleNAmv-Ky72OxxMuMD-XmHbB43javUDF5imSSGB7zeuLzuepUmXOk70BkUVgoC2mkHtcyFjXAoehRviVeOolsDgOfHeUkhehsuWwlSjFQqc1XyRXozETSjqBgaiHUCOb8hfYC1EfxcXXZ96GUuxhKsUUZ7A6Lh0pCRY8ajS9KCETDoQu8qbGbuwGVsCE7kkeChTB8dUywnjw~IHhqLAcqr9ZCslMNnGm6tK5avBOX5CBquhC26lRyA643NlO6q4h2oME~mA7J71Kh2VCGfCoFRTqupjH21rOZhUkCbNiQp933njhQ112hcO8u-Yw__" alt="" />
+                                        </Link>
+                                        </div>
+                                    </div>
+                                    <div className="about-img1">
+                                    <Link><p >Find Air Force 1 Shoes at Nike.com. Free delivery and returns on select orders.</p>
+                                    </Link>
+                                    <div className="imgs-sneakers imgs-sneakers1">
+                                        <Link><img src="https://s3-alpha-sig.figma.com/img/c250/cb4c/36459bdd8d0667504e1f6b00c1cd25ad?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ekWcXdWvdwdRjbUK5i5J3sTxiGjwDIJLM430F3V-xWK4ozgbvvHYIRmw9YF2bWV4C6IQcghlrnTzuCOEP1~4vl7xxaJnUU6nviGmgS-m6GQv2HU6niCbY0-SMiQZcJ4pbX5UBTLKdaJVjLflCJdz80uNWgjDxTXLxHLvjGYd5rwAGcF-u7r0e2R-sB-op5sK6I-q5Lt9Eh5a3wXqv5XRimIr9k3Ggn98~ynYhu6vmq53xqqWLr9MYIEJv0UACIeowXvMe~LxO5glRnw~o7sRfoz3O21Vtfz0bnCJMBMjG4akxnwK8cXvz-dLd5ODjt1FplRnkiQITf9v5NnhiXLNHw__" alt="" />
+                                        </Link>
+                                        <Link><img src="https://s3-alpha-sig.figma.com/img/2be5/bb16/41066a648a782d02c234c9ec0cacb5a4?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=R3UGHJq3j42VOCejMIwTEpiP7iLLJNU3~O0F0x~deg5lJ~mfz26sMbpUoRqBK4KxFG-9b0JOOQH6Y7Ae1QpSLQx0IhnBQcJJQ0~z8TKFn5G9MjDMrjkQT2zOqhDhezlwgvLw4g70LhCoTYhqmAgrlfqd6MLKHBoUtFFTx05x3HrQBLTH9PIRRImCzgeXs~ke6NisO1C0GIwLBxPMrdlQl~GN6an6Cs~A8Olk2WVxk4w0zf1hP0Buj3KxJpqCH3vRyIJkVlSw~ZjVuZo5jCMZ29iTX7BCJ5bRmuu-7prgl9hN9W0tiQDm3yh2nsH88pvh-XHTquRnLrsHOtRaBHmevg__" alt="" />
+                                        </Link>
+                                        <Link><img src="https://s3-alpha-sig.figma.com/img/bdd7/aa54/fd2800fea785bdf077d99d6104ed2efc?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=GEU63a0paZzZqwUDUK4fG-5daSqCIsQG-DBfGVbFTOkZVTDltuziN06L27JafIigvrQ719Omm5EuB1t8fYYADWnSibkr6gnWTenHNbGA2bBSKiEzKzU7eOvNHFTJ86no5DielXppXZjUB5uM5rh5Rx219zM5D43zTh-DJ00rrqJDPoU6-3R~XtoR~1IpcRmgMB8QmArQwcGZE3vG8ow0k82BGOqq0SuUM1bh1dG8bvhKJ5wzxNz77Mb-ccwlFGEpmOZwUbaVIBNO0OZdgDwZGWepGLPp0u~ODdeSXVzOSUrV7MNMs8SLD80Ib2sBzKiRs0vcBQenQWkgOqrziVLRbg__" alt="" />
+                                        </Link>
+                                        <Link><img src="https://s3-alpha-sig.figma.com/img/d634/bb07/99afc0c57ad6316484607b4c6f19857e?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=O19FJ5oGseef2h~nIScmIEbj8vleNAmv-Ky72OxxMuMD-XmHbB43javUDF5imSSGB7zeuLzuepUmXOk70BkUVgoC2mkHtcyFjXAoehRviVeOolsDgOfHeUkhehsuWwlSjFQqc1XyRXozETSjqBgaiHUCOb8hfYC1EfxcXXZ96GUuxhKsUUZ7A6Lh0pCRY8ajS9KCETDoQu8qbGbuwGVsCE7kkeChTB8dUywnjw~IHhqLAcqr9ZCslMNnGm6tK5avBOX5CBquhC26lRyA643NlO6q4h2oME~mA7J71Kh2VCGfCoFRTqupjH21rOZhUkCbNiQp933njhQ112hcO8u-Yw__" alt="" />
+                                        </Link>
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                                
+                            </div>
+                            <div className="search-more-info info1-box">
+                            <div className="name-info">
+                                    <div className="name">
+                                       
+                                        <div className="name-product">
+                                            <h4> <b>Другие также ищут</b></h4>
+                                        </div>
+                                    </div>
+                                    <div className="other">
+                                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                                    </div>
+                                </div>
+                                <hr />
+                            <div className="results">
+                                    <div  className="search-input2">
+                                       <Link> <h3><span>Nike</span> Shoes</h3>
+                                       <img src="./public/imgs/Back.svg" alt="" /></Link>
+                                    </div>  <hr />
+                                    <div className="search-input2">
+                                       <Link>
+                                       <h3><span>Nike</span> pl</h3>
+                                       <img src="./public/imgs/Back.svg" alt="" />
+                                       </Link>
+                                    </div> <hr />
+                                    <div className="search-input2">
+                                        <Link><h3><span>Nike</span> Википедия</h3>
+                                        <img src="./public/imgs/Back.svg" alt="" /></Link>
+                                    </div> <hr />
+                                    <div className="search-input2">
+                                     <Link>   <h3><span>Nike</span> Air</h3>
+                                     <img src="./public/imgs/Back.svg" alt="" /></Link>
+                                    </div> <hr />
+                                    <div className="search-input2">
+                                        <Link>
+                                        <h3><span>Nike</span> Dunk</h3>
+                                        <img src="./public/imgs/Back.svg" alt="" />
+                                        </Link>
+                                    </div>
+                                </div>  
+                                </div>
                             <div className="button3">
                                 <button>Смотреть все</button><br />
                               </div>

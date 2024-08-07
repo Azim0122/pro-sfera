@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'GT Walsheim Pro';
+    src: url('GTWalsheimPro-LightOblique.eot');
+    src: local('GT Walsheim Pro Light Oblique'), local('GTWalsheimPro-LightOblique'),
+        url('GTWalsheimPro-LightOblique.eot?#iefix') format('embedded-opentype'),
+        url('GTWalsheimPro-LightOblique.woff2') format('woff2'),
+        url('GTWalsheimPro-LightOblique.woff') format('woff'),
+        url('GTWalsheimPro-LightOblique.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
 main .container4 {
     max-width: 1020px;
     margin: 0 auto;
@@ -118,7 +130,7 @@ main .container4 .search-results .info1-box .about-results .about-text {
 }
 
 main .container4 .search-results .info1-box .about-results .about-text a h1 {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 500;
     color: rgba(29, 148, 141, 1);
 }
@@ -126,10 +138,53 @@ main .container4 .search-results .info1-box .about-results .about-text a h1 {
 main .container4 .search-results .info1-box .about-results .about-text a p {
     color: rgba(5, 5, 5, 1);
     opacity: .8;
-    padding: .5rem 0rem;
+    padding: 0rem 0rem;
     font-size: 13.5px;
 
 }
+main .container4 .search-results .info1-box .about-results .imgs-sneakers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+    margin-left: 0px;
+}
+
+main .container4 .search-results .info1-box .about-results .imgs-sneakers a img{
+    width: 119px;
+}
+main .container4 .search-results .info1-box .data{
+    font-size: 13px;
+    opacity: .8;
+}
+
+main .container4 .info1-box .results{
+    width: 100%;
+
+}
+main .container4 .info1-box .results .search-input2 a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    background-color: transparent;
+    outline: none;
+    text-decoration: none;
+    color: rgba(5, 5, 5, 1);
+    font-size: 16px;
+    font-weight: 700;
+
+}
+main .container4 .info1-box .results .search-input2 a span{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'GT Walsheim Pro';
+    color: rgba(5, 5, 5, 0.922);
+
+}
+ 
 
 main .container4 .more-detailed {
     width: 60%;
@@ -141,7 +196,6 @@ main .container4 .more-detailed {
     right: 0px !important;
     /* left: 50px; */
 }
-
 main .container4 .more-detailed .detailed-name {
     width: 100%;
     display: flex;
@@ -181,7 +235,7 @@ main .container4 .search-results .info1-box .pictures {
     flex-wrap: wrap;
 }
 main .container4 .search-results .info1-box .picture{
-    font-size: 15px;
+    font-size: 14px;
 }
 main .container4 .search-results .info1-box .picture:nth-child(1) {
     width: 32%;
@@ -364,6 +418,9 @@ main .container4 .btns .search-buttons {
     align-items: center;
     gap: .5rem;
 }
+main .container4 .search-results .info1-box .about-results .imgs-sneakers1{
+    display: none ;
+}
 
 @media screen and (max-width: 1200px) {
     main .container4 {
@@ -406,6 +463,7 @@ main .container4 .btns .search-buttons {
     main .container4 .search-results .info1-box .about-results .about-img1 {
         display: flex;
         width: 100%;
+        flex-direction: column;
     }
 
     main .container4 .search-results .info1-box .about-results .about-img1 img {
@@ -425,8 +483,16 @@ main .container4 .btns .search-buttons {
         display: none;
         
     }
-
-
+    main .container4 .search-results .info1-box .about-results .imgs-sneakers{
+        display: none ;
+    }
+    main .container4 .search-results .info1-box .about-results .imgs-sneakers1{
+        display: flex ;
+    }
+    
+    main .container4 .search-results .info1-box .about-results .about-img1 .imgs-sneakers1 a img{
+   width: 120% !important;
+    }
     nav .container3 .btn1 {
         display: none !important;
     }
@@ -476,7 +542,7 @@ main .container4 .btns .search-buttons {
         width: 48% !important;
         cursor: pointer;       
         margin-bottom: 30px;
-    font-size: 14px;
+    font-size: 11.6px;
         .picture-info{
             margin-top: 50px;
             img{
@@ -492,7 +558,7 @@ main .container4 .btns .search-buttons {
     
     main .container4 .search-results .info1-box .picture:nth-child(2){
         width: 48% !important;
-    font-size: 14px;
+    font-size: 11.6px;
 
         cursor: pointer;       
         margin-bottom: 30px;
@@ -510,7 +576,7 @@ main .container4 .btns .search-buttons {
     }
     main .container4 .search-results .info1-box .picture:nth-child(3){
         width: 48% !important;
-    font-size: 14px;
+    font-size: 11.6px;
 
         cursor: pointer;       
         margin-top: -30px;
@@ -527,7 +593,7 @@ main .container4 .btns .search-buttons {
         }          
     }
     main .container4 .search-results .info1-box .picture:nth-child(4){
-    font-size: 14px;
+    font-size: 11.6px;
     width: 48% !important;
         cursor: pointer;       
         margin-top: -30px;
@@ -545,7 +611,7 @@ main .container4 .btns .search-buttons {
     }
     main .container4 .search-results .info1-box .picture:nth-child(5){
         width: 100% !important;
-    font-size: 14px;
+    font-size: 11.6px;
     cursor: pointer;       
         .picture-info{
             margin-top: 50px;
@@ -561,7 +627,7 @@ main .container4 .btns .search-buttons {
     }
     main .container4 .search-results .info1-box .picture:nth-child(6){
         width: 48% !important;
-    font-size: 14px;
+    font-size: 11.6px;
     cursor: pointer;       
         .picture-info{
             margin-top: 50px;
@@ -579,7 +645,7 @@ main .container4 .btns .search-buttons {
     }
     main .container4 .search-results .info1-box .picture:nth-child(7){
         width: 48% !important;
-    font-size: 14px;
+    font-size: 11.6px;
     cursor: pointer;     
         margin-bottom: 15px;  
         .picture-info{
@@ -594,6 +660,12 @@ main .container4 .btns .search-buttons {
             height: 200px;
         }            
     }
-
+    .button3 button a{
+    color: white !important;
+    font-size: 20px !important;
+    }
+  .name-product a{
+    font-size: 12.7px !important;
+  }
 
 }
