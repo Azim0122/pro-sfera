@@ -15,10 +15,13 @@ function Home() {
           <div className="container">
           <h1><img className='logo'  src="./public/imgs/logo.svg" alt="" /> </h1>
           <div className="search">
-           <div className="search-input">
-           <input placeholder='Введите ваш запрос' type="search"  />
-           <button><Link to={"/search"}><i class='bx bx-globe'></i></Link></button>
-           </div>
+          <div className="search-input">
+                          <form action="">
+                          <input type="input" name="focus" required class="search-box" placeholder="Введите ваш запрос" />
+                                <button class="close-icon" type="reset"></button>
+                                <button className='button-srch'><Link to={'/search'}><i class='bx bx-globe'></i></Link></button>
+                          </form>
+                            </div>
            <div className="search-info">
             <div className="weather">
             <i class='bx bx-sun'></i> 

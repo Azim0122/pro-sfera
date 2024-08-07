@@ -7,7 +7,7 @@ function Pictures() {
     <>
     <NavbarHome />
     <div className="container3">
-    <div className="boxs">
+    <div className="boxs4">
 
        
 <div className="boxs1">

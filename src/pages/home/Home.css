@@ -43,17 +43,58 @@ main section .container .search-input{
 main section .container .search-input:focus-within{
     box-shadow: 0 0 20px rgba(95, 224, 216, 1);
 }
-main section .container .search-input input{
+.container .search-input form{
     border: none;
     outline: none;
-    flex: 1;
+    height: 100% !important;
+    background-color: transparent;
+    color: rgba(5, 5, 5, 1);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: GT Walsheim Pro;
+    width: 100% !important;
+    position: relative;
+}
+main section .container .search-input form .search-box{
+    border: none;
+    outline: none;
     height: 100%;
     background-color:transparent;
     color:rgba(5, 5, 5, 1);
     font-size: 18px;
     font-weight: 400;
     font-family: GT Walsheim Pro;
+    width: 92% !important;
+    position: relative;
 
+}
+.container .search-input .close-icon {
+	display: inline-block;
+	vertical-align: middle;
+  outline: 0;
+  cursor: pointer;
+}
+.close-icon:after {
+	content: "X";
+	display: block;
+	width: 17px;
+	height: 17px;
+	position: absolute;
+	z-index:1;
+	right: 50px !important;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	padding: 2px;
+	border-radius: 50%;
+	text-align: center;
+	color: rgb(0, 0, 0);
+	font-weight: normal;
+	font-size: 18px;
+	cursor: pointer;
+}
+.search-box:not(:valid) ~ .close-icon {
+	display: none;
 }
 
 main section .container .search-input input::placeholder{
@@ -61,7 +102,7 @@ main section .container .search-input input::placeholder{
     opacity: .8;
 
 }
-main section .container .search-input button{
+main section .container .search-input .button-srch{
     position: absolute;
     display: flex;
     align-items: center;
@@ -73,17 +114,18 @@ main section .container .search-input button{
     background-color: rgba(95, 224, 216, 1);
     transition: 0.3s;
     border: none;
-    right: 0px;
+    right: -15px;
+    top: -15px;
 }
-main section .container .search-input button i{
+main section .container .search-input .button-srch i{
     font-size: 20px;
     transform: scale(1.5);
     color: white;
 }
-main section .container .search-input button:hover{
+main section .container .search-input .button-srch:hover{
     background-color: rgba(61, 228, 217, 0.973);
 }
-main section .container .search-input button:hover i{
+main section .container .search-input .button-srch:hover i{
     animation: globe 3s ease-in-out infinite;
 }
 @keyframes globe {
@@ -137,7 +179,7 @@ main section .container .search-info .weather span{
     color: rgba(5, 5, 5, 1);
     opacity: .6;
     font-family: GT Walsheim Pro;
-
+    
 }
 main section .container .search-info .courses{
     display: flex;
@@ -219,9 +261,9 @@ hr{
         width: 100%;
     }
 main section .container .search-info{
-    left: -120px;
+    left: -130px;
 }
 main section .container4 .links ul{
-    margin-left: 0px;
+    margin-left: 20px;
 }
 }
